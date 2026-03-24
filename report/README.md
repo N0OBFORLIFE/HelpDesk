@@ -14,3 +14,10 @@ to solve this, I changed out the data structures; the int ones to a `Ticket` str
 - Undo: when a ticket is undone, it is popped from the stack and pushed to the front of the urgent deque (because if something was undone; theres something wrong and you would want that to be finished ASAP), and because we used a struct, the tickets instantly gets its original identity back.
 
 ### **D. How To Run**
+1. Clone the repository
+2. Get to the `src` folder which has the relevant files
+3. Compile with GCC and run:
+```bash
+gcc main.c -o main && ./main
+```
+(run main in the next command if error)
