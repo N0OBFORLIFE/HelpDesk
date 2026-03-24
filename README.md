@@ -1,6 +1,6 @@
 # HelpDesk
 
-C based, CLI mini project
+(Presentation video)[https://drive.google.com/file/d/1l7Apa3-oPMey8kOATSfdib_sKRAU1bF2/view?usp=drivesdk]
 
 ## Features
 - **Urgency handling**: uses a **deque** (doubly linked list)
